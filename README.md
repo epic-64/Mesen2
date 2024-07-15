@@ -35,6 +35,15 @@ For Linux and macOS, **SDL2** must also be installed.
 
 See [COMPILING.md](COMPILING.md)
 
+## Installation Instructions
+### Ubuntu
+* install SDL2: `sudo apt-get update && sudo apt-get install libsdl2-2.0-0 libsdl2-dev`
+* download native build for linux (see above)
+* extract the `Mesen` file from the zip (zip contains only that file)
+* navigate to the folder where you put the `Mesen` file
+* make the file executable: `chmod +x Mesen`
+* run Mesen: `./Mesen`
+
 ## License
 
 Mesen is available under the GPL V3 license.  Full text here: <http://www.gnu.org/licenses/gpl-3.0.en.html>
